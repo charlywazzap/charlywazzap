@@ -1,11 +1,9 @@
 ---
-title: Scenario 1 - Road Side ambush
-short_description:
-tags:
-- #campaign_1
-type: 
-players: #pc_charlycastro
-ID: 20210627231809
+id: xsNPDS0cIAP4OEfLtOKPr
+title: Scenario 1
+desc: ''
+updated: 1625025334542
+created: 1625025334542
 ---
 
 ## Description
@@ -17,7 +15,7 @@ Nasty things, really. Best to ignore ther ranting an end this quickly
 
 ## Objective
 
-Kill all [[20210627230534]] Vermling Raiders (4)
+Kill all [[gh-jaws-of-the-lion.ene.vermling-raiders]] (4)
 
 ## Interesting things that happened
 
@@ -33,14 +31,13 @@ Kill all [[20210627230534]] Vermling Raiders (4)
 
 ## Conclusion
 
-You wipe the blood of the last Vermling from your face and your thoughts return to [[20210627222607]]
-_loc_sleeping_lion.  surely they got a stew ready by now. It would be so perfectly warm and soothing , and
+You wipe the blood of the last Vermling from your face and your thoughts return to [[gh-jaws-of-the-lion.loc.sleeping-lion]]. surely they got a stew ready by now. It would be so perfectly warm and soothing , and
 it's right through that gate- so close, you can already taste it… But then, another thought comes. It is
 highly unusual– brazen, rally– for a pack of vermlings to operate this close to the city. Could they be behind
 the string of dissaperances? It's a long shot but one worth investigating, especially considering this ambush
 sitedoesnt look like their base of operations. there is probably a nest nearby that, with any luck, will have
-more information on [[20210627223753]] The missing BlackSmith. And treasure would be nice
+more information on [[gh-jaws-of-the-lion.quest.missing-blacksmith]]. And treasure would be nice
 
 ## Rewards
 
-Discovered [[20210628001514]] A hole in the wall
+Discovered [[gh-jaws-of-the-lion.loc.hole-in-the-wall]]

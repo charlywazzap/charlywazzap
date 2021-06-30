@@ -1,11 +1,12 @@
 ---
+id: qCzxSYGlI3L1lyubfgIU2
 title: Jaws of the Lion
-short_description: Mercenary group
-tags:
-type: 
-players: #pc_charlycastro
-ID: 20210627224641
+desc: ''
+updated: 1625024749271
+created: 1625024749271
 ---
+
+Famous Clan of mercenaries.
 
 # Members
 
