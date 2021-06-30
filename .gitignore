@@ -2,3 +2,4 @@ node_modules
 .dendron.*
 build
 .ztr*
+.DS_Store
