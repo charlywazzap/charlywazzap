@@ -2,7 +2,7 @@
 id: GaJyFJGg8WtI7e1P5LWiP
 title: Character Turns
 desc: ''
-updated: 1625379868301
+updated: 1625455707529
 created: 1625376676096
 ---
 
@@ -27,3 +27,6 @@ Possible abilities you can do
 - [[gh-jaws-of-the-lion.mech.abilities.destroying-obstacles]]
 - [[gh-jaws-of-the-lion.mech.abilities.looting]] Money or Treasure
 - Opening [[gh-jaws-of-the-lion.mech.abilities.doors]]
+- [[gh-jaws-of-the-lion.mech.abilities.push]]
+- [[gh-jaws-of-the-lion.mech.abilities.pull]]
+- [[gh-jaws-of-the-lion.mech.abilities.negate-damage]]
