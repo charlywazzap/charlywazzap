@@ -6,7 +6,7 @@ updated: 1625373362375
 created: 1625373362375
 ---
 
-revealing the room sets up al monsters in the sceneario
+revealing the room sets up al monsters in the scenario
 
-Monsters set up when revealing the room always ack in the round in which they where setup.
-After the releave the character that trigger the reveleat continues with his/her turn
+Monsters set up when revealing the room always act in the round in which they where setup.
+After the reveal, the character that trigger the reveal continues with his/her turn

@@ -10,7 +10,7 @@ created: 1625379427214
 
 - Whenever a character reaches 0 on their hit points
 
-## Consecuenses
+## Consequences
 
 - Remove their figure from the map
 - Will no longer participate in the scenario

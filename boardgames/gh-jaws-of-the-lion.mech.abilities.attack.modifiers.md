@@ -10,7 +10,7 @@ Anytime an attacker performs an attack the figure must flip over one card from t
 
 Types
 
-- Numerical Value modifier (+ or - ) must be substracted or added to the attack value
+- Numerical Value modifier (+ or - ) must be subtracted or added to the attack value
 - a 2x means the attack is doubled
 - a / means no damage
 - the 2x and the / also have a shuffle symbol if its revealed then the full deck should be reshuffled

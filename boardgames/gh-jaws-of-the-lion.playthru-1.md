@@ -22,8 +22,8 @@ created: 1625024215135
 
 ## Events
 
-* [[gh-jaws-of-the-lion.evt.many-dissaperances]]
-* [[gh-jaws-of-the-lion.evt.bad-lead]] been looking out for a fortbnight for a missing blacksmith , but no luck  
+* [[gh-jaws-of-the-lion.evt.several-disappearances]]
+* [[gh-jaws-of-the-lion.evt.bad-lead]] been looking out for a fortnight for a missing blacksmith , but no luck  
 * [[gh-jaws-of-the-lion.evt.barricade]] Entering Gloomhaven Barricade
 
 ## Active Quests
@@ -32,7 +32,7 @@ created: 1625024215135
 
 ## Quests Completed
 
-## Senarios
+## Scenarios
 
 * [[gh-jaws-of-the-lion.playthru-1.scenario-1]] Road Side ambush
   

@@ -9,11 +9,11 @@ created: 1625376676096
 - Players will play their 2 cards selected during [[gh-jaws-of-the-lion.mech.round.card-selection]] in any order
 - Players cannot play 2 top actions or 2 bottom actions
 - Players need to alternate top and bottom actions
-- Actions may be composed of multiple abilities separated by a dotted line
-- Abilities may be skipped.
-- After Card is played it is placed on the discard pile on the left of the character mat
+- Actions have the option of 2 or more abilities separated by a dotted line
+- Players can skip abilities.
+- After a player plays a Card, place the card on the discard pile on the left of the character mat
 
-Possible abilities you can do 
+Possible abilities you can do
 
 - Move
 - [[gh-jaws-of-the-lion.mech.attack]]

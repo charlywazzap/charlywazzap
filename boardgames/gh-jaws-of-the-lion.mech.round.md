@@ -7,9 +7,9 @@ created: 1625375907712
 ---
 
 
-Gameplay within a Scenario is broken up into a series of rounds
+Game play within a scenario have a series of rounds
 
-Round Scequence 
+Round Sequence
 
 1. All players will select 2 [[gh-jaws-of-the-lion.mech.ability-cards]] they will like to play
 2. Chosen Cards will determine the initiative Order

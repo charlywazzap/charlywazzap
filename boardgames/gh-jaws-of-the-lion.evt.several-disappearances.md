@@ -1,6 +1,6 @@
 ---
 id: 6OTHtDfe01sn-4ZeOy4z_
-title: Many Dissaperances
+title: Several Disappearances
 desc: ''
 updated: 1625025489576
 created: 1625025489576

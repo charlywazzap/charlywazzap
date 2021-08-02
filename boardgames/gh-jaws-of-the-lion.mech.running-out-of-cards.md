@@ -8,5 +8,4 @@ created: 1625380188658
 
 Given enough rounds you can run out of cards.
 
-If you do not have at least 2 cards at the begging of your turn you become [[gh-jaws-of-the-lion.mech.exhausted]]
-and are removed from the scenario.
+If you do not have at least 2 cards at the begging of your turn you become [[gh-jaws-of-the-lion.mech.exhausted]] and removed from the scenario.

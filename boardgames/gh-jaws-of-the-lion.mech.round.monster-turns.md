@@ -16,4 +16,4 @@ created: 1625378487701
 
 - Elite monsters from a single set will always go first.
 - Draw a card from the monster ability deck per monster set
-- Perform only what is described on the card
+- Perform what the card describes
