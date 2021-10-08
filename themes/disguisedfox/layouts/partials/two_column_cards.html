@@ -1,0 +1,43 @@
+<div class="row mt-4">
+    <div class="col-lg-6 col-12">
+      <div class="card h-100 card-profile overflow-hidden shadow">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+            <a href='{{ .Scratch.Get "URL1"  }}'>
+              <div class="p-3 pe-md-0">
+                <img class="w-100 border-radius-md" src="{{ .Scratch.Get "Thumbnail1" }}" alt="image">
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+            <div class="card-body">
+              <h5 class="mb-0">{{ .Scratch.Get "Title1"  }}</h5>
+              <h6 class="text-info">{{ .Scratch.Get "SubTitle1"  }}</h6>
+              <p class="mb-0">{{ .Scratch.Get "Description1"  }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-12">
+      <div class="card h-100 card-profile mt-lg-0 mt-5 overflow-hidden shadow">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+            <a href='{{ .Scratch.Get "URL2"  }}'>
+              <div class="p-3 pe-md-0">
+                <img class="w-100 border-radius-md" src="{{ .Scratch.Get "Thumbnail2" }}" alt="image">
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+            <div class="card-body">
+                <h5 class="mb-0">{{ .Scratch.Get "Title2"  }}</h5>
+                <h6 class="text-info">{{ .Scratch.Get "SubTitle2"  }}</h6>
+                <p class="mb-0">{{ .Scratch.Get "Description2"  }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

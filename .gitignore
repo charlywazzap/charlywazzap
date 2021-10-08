@@ -3,3 +3,10 @@ node_modules
 build
 .ztr*
 .DS_Store
+reference
+themes/air
+themes/blackburn
+themes/doks
+themes/geek
+themes/mengha
+themes/minimal

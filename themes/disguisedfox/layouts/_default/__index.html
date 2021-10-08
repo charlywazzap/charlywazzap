@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+ <!-- Blocks may include default content. -->
+
+    <title>{{ block "title" . }}
+    {{ .Site.Title }}
+    {{ end }}</title>
+    {{ partial "head/others" . }}
+  </head>
+
+<body class="card">	
+
+    <header class="d-print-none">
+        <div class="container text-center text-lg-left">
+          <div class="py-3 clearfix">
+            <h1 class="site-title mb-0">{{.Site.Data.resume.first_name}} {{.Site.Data.resume.last_name}}</h1>
+            <div class="site-nav">
+              <nav role="navigation">
+                <ul class="nav justify-content-center">
+                  <li class="nav-item "><a target=_blank class="nav-link text-dark"
+                  href="https://twitter.com/{{.Site.Data.resume.twitter}} "
+                  title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title
+                  sr-only">Twitter</span></a>
+                  </li>
+                  <li class="nav-item"><a target=_blank class="nav-link text-dark" href="https://www.facebook.com/{{.Site.Data.resume.linkedin}} " title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">Linkedin</span></a>
+                  </li>
+                  <li class="nav-item"><a target=_blank class="nav-link text-dark" href="https://github.com/{{.Site.Data.resume.github}}" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="page-content">
+        <div class="container">
+
+    <div class="">
+    <div class=" p-3 p-lg-4">
+      <div class="row">
+        <div class="col-lg-2 col-md-5 p-3">
+          <div class="avatar-scale-up"><img class="avatar-xxl" src="https://avatars.githubusercontent.com/u/19542008?v=4" width="200" height="200"/></div>
+        </div>
+        <div class="col-lg-8 col-md-7 text-center text-md-start">
+        </div>
+      </div>
+      <div class="about-section pt-1 px-1 px-lg-1 mt-1">
+        <p class="text-info" data-aos="fade-left" data-aos-delay="100">{{.Site.Data.resume.headline}}</p>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="h3 mb-3">About Me</h2>
+            <p> {{ .Site.Data.resume.about }} </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="d-print-none"/>
+
+    {{ partial "resume/core_values.html" . }}
+
+
+
+    <hr class="d-print-none"/>
+
+    {{ partial "resume/skills.html" . }}
+
+
+    <hr class="d-print-none"/>
+
+
+    {{ partial "resume/experience.html" . }}
+
+    <hr class="d-print-none"/>
+    <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
+      <h2 class="h3 text mb-3">Contact</h2>
+      <div class="row">
+        <div class="col-md-7 d-print-none">
+          <div class="my-2"><form action="https://formspree.io/your@email.com"
+      method="POST">
+    <div class="row">
+      <div class="col-6">
+        <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="col-6">
+        <input class="form-control" type="email" id="email" name="_replyto" placeholder="Your E-mail" required>
+      </div>
+    </div>
+    <div class="form-group my-2">
+      <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Your Message" required></textarea>
+    </div>
+    <button class="btn btn-primary mt-2" type="submit">Send</button>
+  </form>
+          </div>
+        </div>
+
+        <div class="col d-none d-print-block">
+          <div class="mt-2">
+            <div>
+              <div class="mb-2">
+                <div class="text-dark"><i class="fab fa-twitter mr-1"></i><span>https://twitter.com/templateflip</span>
+                </div>
+              </div>
+              <div class="mb-2">
+                <div class="text-dark"><i class="fab fa-facebook mr-1"></i><span>https://www.facebook.com/templateflip</span>
+                </div>
+              </div>
+              <div class="mb-2">
+                <div class="text-dark"><i class="fab fa-instagram mr-1"></i><span>https://www.instagram.com/templateflip</span>
+                </div>
+              </div>
+              <div class="mb-2">
+                <div class="text-dark"><i class="fab fa-github mr-1"></i><span>https://github.com/templateflip</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+        <div class="container">
+          <div class="my-3">
+            <div class="h4">{{.Site.Data.resume.first_name}} {{.Site.Data.resume.last_name}}</div>
+            <div class="footer-nav">
+              <nav role="navigation">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item "><a target=_blank class="nav-link text-dark"
+                        href="https://twitter.com/{{.Site.Data.resume.twitter}} "
+                        title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title
+                        sr-only">Twitter</span></a>
+                        </li>
+                        <li class="nav-item"><a target=_blank class="nav-link text-dark" href="https://www.facebook.com/{{.Site.Data.resume.linkedin}} " title="Linkedin"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">Linkedin</span></a>
+                        </li>
+                        <li class="nav-item"><a target=_blank class="nav-link text-dark" href="https://github.com/{{.Site.Data.resume.github}}" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                        </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="text-small">
+            <div class="mb-1">&copy; My Resume. All rights reserved.</div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html> 

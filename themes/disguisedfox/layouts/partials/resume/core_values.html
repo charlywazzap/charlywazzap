@@ -1,0 +1,27 @@
+
+  <div class="skills-section ">
+    <div class="py-0 accordion-button font-weight-bold collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
+        <h2 class="h3 mb-3" >Core Values and Principles </h2>
+        <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0 me-3" aria-hidden="false"></i>
+        <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
+    </div>
+    
+    <div class="collapse"  id="collapseExample" aria-labelledby="collapseExample" >
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="accordion" id="accordionRental">
+  
+              {{ range  $index, $item :=  .Site.Data.resume.values }}
+              {{ partial "resume/core_values_item.html" (dict "context" . "index" $index ) }}
+              {{ end }}
+  
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+  
+  
+  

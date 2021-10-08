@@ -1,0 +1,23 @@
+<div class="skills-section ">
+    <div class="py-0 accordion-button primary font-weight-bold collapsed" data-bs-toggle="collapse" href="#collapseSkills" role="button" aria-expanded="false" aria-controls="collapseSkills" >
+        <h2 class="h3 mb-3">Professional Skills</h2>
+        <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
+        <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
+      </div>
+      <div class="collapse"  id="collapseSkills" aria-labelledby="collapseSkills" >
+
+    <div class="row">
+
+        <div class="col-md-6">
+          {{ range .Site.Data.resume.tech_skills }}
+            {{ partial "resume/skills_item.html" .  }}
+          {{end}}
+        </div>
+        <div class="col-md-6">
+            {{ range .Site.Data.resume.power_skills }}
+              {{ partial "resume/skills_item.html" .  }}
+            {{end}}
+          </div>
+        </div>
+    </div>
+</div>

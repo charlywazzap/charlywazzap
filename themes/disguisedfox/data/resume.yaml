@@ -1,0 +1,126 @@
+first_name: Carlos 
+last_name: Castro
+pronouns: He/Him
+headline: Technical Leader / Staff SRE / Technology Director at Wizeline 
+country: Mexico
+industry: IT & Services
+github: charlywazzap
+twitter: charlywazzap
+linkedin: charlycastro
+values:
+  - name: Integrity
+    description: |
+      Valuing integrity in the workplace means that I try to do the right thing, 
+      even when you think no one is looking. I value honesty, transparency and a
+      commitment to doing what’s best for clients, customers, teammates and company. 
+  - name: Love of Learning
+    description: |
+      Im passionate about learning and seek to constantly improve and innovate. We learn
+      from others, while teaching and from challenges & successes
+  - name: Curiosity
+    description: | 
+      Taking an interest in ongoing experience for its own sake; finding subjects and
+      topics fascinating; exploring and discovering.
+      I seek out knowledge, cultivate my intuition, and always want to understand hidden
+      connections and patterns
+  - name: Courage 
+    description: | 
+      Aimed at achieving goals and objectives in difficult situations.
+      • Perseverance and diligence.
+      • Integrity, honesty, authenticity.
+      • Vitality and passion for things.
+  - name: Autonomy 
+    description: | 
+      The ability to work in a way that is most conducive to performing at my bes. 
+      As an employee, I want to feel empowered to make decisions and take action. 
+      Have flexibility in my work as long as satisfactory performance and objectives are meet.
+  - name: Influence 
+    description: | 
+      ability to encourage, motivate and guide others to think or act in a specific way to achieve goals
+  - name: Vision 
+    description: | 
+      knowing what my goals and objectives are and having a clear plan for achieving those goals. 
+      Able to effectively communicate to my teams what the company's and my goals are and 
+      why they are important.
+
+about: |
+  Carlos Castro is a Site Reliability Engineer at Wizeline who develops and maintains solutions that facilitate the workflow of the engineering team and ensures all services are running and can scale as required. 
+  While working in Wizeline Carlos has help customers apply DevOps core principles to deliver business and customer value constantly and consistently. 
+  He comes from a long work history in customer experience and technical support which helps him identify solutions that consider the value and user experience of all involved. 
+  Carlos's educational background includes a BS in Digital Systems and Communications from
+  Universidad Autónoma de Ciudad Juárez and Cloud certifications.
+tech_skills:
+  - name: Golang, React, Python & Software Engineering 
+    value: 75
+    color: warning
+  - name: Cloud Providers
+    value: 90
+    color: warning
+  - name: System Design & Architecture
+    value: 90
+    color: warning
+  - name: DevExp Architect
+    value: 95
+    color: warning
+  - name: Containers 
+    value: 90
+    color: warning
+  - name: Data Storage
+    value: 85
+    color: warning
+  - name: Networking 
+    value: 85
+    color: warning
+  - name: Security 
+    value: 85
+    color: warning
+  - name: Toil Reduction 
+    value: 95
+    color: warning
+power_skills:
+  - name: Principles & Values first 
+    value: 100
+    color: info
+  - name: Consulting 
+    value: 100
+    color: info
+  - name: Ownership
+    value: 100
+    color: info
+  - name: Strategic Thinking
+    value: 95
+    color: info
+  - name: Growth Mindset
+    value: 100
+    color: info
+  - name: Creativity
+    value: 95
+    color: info
+  - name: Communication
+    value: 95
+    color: info
+  - name: Leadership
+    value: 100
+    color: info
+  - name: Team building 
+    value: 95
+    color: info
+experience: 
+  - company: "at Wizeline"
+    title: Practice Lead / Technology Director
+    start_date: "10-12-2009"
+    current: true
+    end_date: ""
+    description: "Hello from here "
+  - company: "Wistron"
+    current: false
+    start_date: "10-12-2009"
+    end_date: "10-12-2010"
+    description: "Hello from here "
+certification:
+  - name:
+    org:
+    issue_date:
+    expiration_date:
+    cred_id:
+    cred_url:

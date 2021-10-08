@@ -1,0 +1,26 @@
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'The Disguised Fox Den'
+contentDir: boardgames/.
+staticDir: static
+theme: "disguisedfox"
+paginate: 10
+pluralizeListTitles: true
+titleCaseStyle: true
+# Geekdoc configuration
+disablePathToLower: true
+enableGitInfo: false
+
+## URL Management
+permalinks:
+  /: /:slug/:filename
+
+# Needed for mermaid shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
+

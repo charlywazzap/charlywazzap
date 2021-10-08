@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+ <!-- Blocks may include default content. -->
+
+    <title>{{ block "title" . }}
+    {{ .Site.Title }}
+    {{ end }}</title>
+    {{ partial "head/others" . }}
+  </head>
+  <body class="bg-light">
+    {{ partial "top_navigation" . }} 
+    <div class="container">
+      <div class="row">
+    <!-- Code that all your templates share, like a header -->
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+
+    
+
+      <div class="row">
+        <div class="col-md-8 text-start mb-5 mt-5">
+          <h3 class="text z-index-1 position-relative">The Contents Of The Den</h3>
+          <p class="text opacity-8 mb-0">Here you will find some of the topics I find most
+          interesting in writing about.</p>
+        </div>
+      </div>
+
+
+      {{ .Scratch.Set "Title1" "BoardGames"  }}
+      {{ .Scratch.Set "Thumbnail1" "https://p1.pxfuel.com/preview/959/193/170/dungeons-and-dragons-dungeons-dragons-d-d-dice-game-d20.jpg"  }}
+      {{ .Scratch.Set "URL1" "/boardgames"  }}
+      {{ .Scratch.Set "SubTitle1" "Hobbies & Entertainment"  }}
+      {{ .Scratch.Set "Description1" "Rules, Reviews, Variants and News on Board Games"}}
+      
+      {{ .Scratch.Set "Title2" "VideoGames"  }}
+      {{ .Scratch.Set "Thumbnail2" "https://media.istockphoto.com/photos/gamer-work-space-concept-top-view-a-gaming-gear-mouse-keyboard-in-picture-id1170073824?b=1&k=20&m=1170073824&s=170667a&w=0&h=E2W21WamGtyTwz03FlSwIaA24uYF3oLIVwZr0uAJCPY="  }}
+      {{ .Scratch.Set "URL2" "/videogames"  }}
+      {{ .Scratch.Set "SubTitle2" "Hobbies & Entertainment"  }}
+      {{ .Scratch.Set "Description2" "Reviews, Tips, Tricks, Thoughts and News on Video Games"  }}
+      {{ partial "two_column_cards.html" . }}
+
+
+      {{ .Scratch.Set "Title1" "Productivity"  }}
+      {{ .Scratch.Set "Thumbnail1" "https://st2.depositphotos.com/4021139/7807/i/600/depositphotos_78070580-stock-photo-get-more-done-concept.jpg"  }}
+      {{ .Scratch.Set "URL1" "/productivity"  }}
+      {{ .Scratch.Set "SubTitle1" "Lifestyle"  }}
+      {{ .Scratch.Set "Description1" "Reflections, systems and recommendations around productivity"  }}
+      
+      {{ .Scratch.Set "Title2" "Software & Cloud Engineering"  }}
+      {{ .Scratch.Set "Thumbnail2" "https://assets.rbl.ms/25591710/origin.jpg"  }}
+      {{ .Scratch.Set "URL2" "/software_cloud_engineering"  }}
+      {{ .Scratch.Set "SubTitle2" "Work, Experience & Technology"  }}
+      {{ .Scratch.Set "Description2" "Blog posts, Lessons Learned, Side Projects, Tutorials and How to's "  }}
+      {{ partial "two_column_cards.html" . }}
+
+
+      {{ .Scratch.Set "Title1" "Leadership"  }}
+      {{ .Scratch.Set "Thumbnail1" "https://s3.amazonaws.com/thumbnails.venngage.com/template/09455da4-0c22-4456-9559-475efdaa51cc.png"  }}
+      {{ .Scratch.Set "URL1" "leadership"  }}
+      {{ .Scratch.Set "SubTitle1" "Work, Experience & Technology"  }}
+      {{ .Scratch.Set "Description1" "Reflections, styles and recommendations around leadership"  }}
+      
+      {{ .Scratch.Set "Title2" "Miniature Painting"  }}
+      {{ .Scratch.Set "Thumbnail2" "https://i1.wp.com/boingboing.net/wp-content/uploads/2020/12/Screen-Shot-2020-12-08-at-8.14.59-PM.png?fit=1200%2C712&ssl=1"  }}
+      {{ .Scratch.Set "URL2" "miniature_painting"  }}
+      {{ .Scratch.Set "SubTitle2" "Hobbies & Entertainment"  }}
+      {{ .Scratch.Set "Description2" "Learning paths, Lessons Learned, Tutorials and How to's "  }}
+      {{ partial "two_column_cards.html" . }}
+      
+
+      <div class="row mt-4">
+        <div class="col-12 mx-auto">
+          <div class="row py-lg-7 py-5">
+            <div class="col-lg-3 col-md-15 position-relative my-auto">
+              <img class="img border-radius-lg max-width-200 w-100 position-relative z-index-2" src="https://avatars.githubusercontent.com/u/19542008?v=4" alt="bruce">
+            </div>
+            <div class="col-lg-8 col-md-12 z-index-2 position-relative px-md-2 px-sm-5 mt-sm-0 mt-4">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <h4 class="mb-0">Charly Castro</h4>
+                <div class="d-block">
+                  <button type="button" class="btn btn-sm btn-outline-info text-nowrap mb-0">Follow</button>
+                </div>
+                
+              </div>
+              <h6 class="text-info">SRE, Cloud Architect, Technical Leader & Entrepreneur </h6>
+
+              <div class="row mb-4">
+                <div class="col-auto">
+                  <span class="h6">{{ len .Site.RegularPages }}</span>
+                  <span>Posts</span>
+                </div>
+                <!-- <div class="col-auto">
+                  <span class="h6">3.5k</span>
+                  <span>Followers</span>
+                </div>
+                <div class="col-auto">
+                  <span class="h6">260</span>
+                  <span>Following</span>
+                </div> -->
+              </div>
+              <p class="text-lg mb-0">
+                <strong>About me</strong>: Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Duis eu ex leo. Mauris pharetra suscipit ultricies.
+                Suspendisse sit amet purus est. Suspendisse potenti. Nunc justo erat,
+                pellentesque quis ultricies nec, finibus vitae ligula. Maecenas euismod a
+                lorem sed consequat. Etiam ac orci luctus, feugiat dolor sit amet,
+                interdum metus.
+                 <br><a href="https://mx.linkedin.com/in/charlycastro" target="_blank" class="text-info icon-move-right">More about me
+                  <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{ end }}
+
+      </div>
+    </div>
+    
+    
+
+  </body>
+</html>
+

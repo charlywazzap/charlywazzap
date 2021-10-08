@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <title>{{ block "title" . }}
+      <!-- Blocks may include default content. -->
+    {{ .Site.Title }}
+    {{ end }}</title>
+    {{ partial "head/others" . }}
+  </head>
+  <body class="bg-light">
+    {{ partial "top_navigation" . }} 
+    <div class="container">
+      <div class="row">
+    <!-- Code that all your templates share, like a header -->
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+    {{ end }}
+
+      </div>
+    </div>
+    
+    
+
+  </body>
+</html>
+
